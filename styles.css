@@ -1,0 +1,106 @@
+@import url('./resetStyles.css');
+
+:root {
+  --primary-color: hsl(0, 100%, 74%);
+  --secundary-color: hsl(154, 59%, 51%);
+  --accent-color: hsl(248, 32%, 49%);
+  --neutral-color-dark: hsl(249, 10%, 26%); 
+  --neutral-color-light: hsl(246, 25%, 77%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  padding: 20rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('./images/bg-intro-desktop.png');
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16rem;
+  text-align: center;
+  color: #fff;
+}
+
+.container-text {
+  margin-top: 50px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 500px;
+}
+
+.container-text h1 {
+  font-size: 32rem;
+  font-weight: bold;
+}
+
+.container-text p {
+  margin-top: 30px;
+  font-size: 16rem;
+  font-weight: 400;
+}
+
+.container-form {
+
+  width: 100%;
+  min-width: 320px;
+  max-width: 500px;
+}
+
+.button-subcribe {
+  margin: 50px 0 20px 0;
+  padding: 24px 60px;
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: var(--accent-color);
+}
+
+.container-form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container-form form input {
+  width: 90%;
+  height: 44px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: var(--neutral-color-dark);
+}
+
+.button_free-trial {
+  width: 90%;
+  height: 44px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16rem;
+  font-weight: 500;
+  background-color: var(--secundary-color);
+}
+
+.container-form form p {
+  width: 90%;
+  padding: 26px;
+  margin: 5px 0;
+  font-size: 10rem;
+  color: var(--neutral-color-light);
+}
+
+.container-form form p span {
+  color: var(--primary-color);
+}
