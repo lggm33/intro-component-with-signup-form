@@ -80,6 +80,7 @@ body {
   margin-top: 20px;
   border-radius: 5px;
   color: var(--neutral-color-dark);
+  border: solid 2px var(--neutral-color-light);
 }
 
 .button_free-trial {
@@ -91,6 +92,7 @@ body {
   font-size: 16rem;
   font-weight: 500;
   background-color: var(--secundary-color);
+  border: none;
 }
 
 .container-form form p {
